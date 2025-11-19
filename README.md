@@ -42,7 +42,8 @@
 ## 🛠️ Usage
 ### (Step1) Install
 ```bash
-conda create -n v2lo python=3.10 -y && conda activate v2lo
+conda create -n v2lo python=3.10 -y 
+conda activate v2lo
 
 pip install -r requirements.txt
 ```
