@@ -1,42 +1,34 @@
 <div align="center">
 
 # Video2Layout: Recall and Reconstruct Metric-Grounded Cognitive Map for Spatial Reasoning
-[![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)]() [![Hugging Face Collection](https://img.shields.io/badge/Model_&_Dataset-HuggingFace-yellow?style=for-the-badge&logo=huggingface&logoColor=000)]()
+[![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)]() [![Hugging Face Collection](https://img.shields.io/badge/Model_&_Dataset-HuggingFace-yellow?style=for-the-badge&logo=huggingface&logoColor=000)](https://huggingface.co/ybrrraway)
 
 </div>
 
-## ⚡ Updates
-<!-- * 20/05/2025: 🔥 We update the checkpoints of our trained models (larger model sizes, more training data)! -->
-* 20/11/2025: 🎉 We release our paper, code, model and datasets.
+**Video2Layout** is a framework for reconstructing metric-grounded spatial layouts from video. It leverages continuous object boundary coordinates to quantify inter-object physical distances and object sizes, equipping the model with quantitative spatial computation capabilities. This effectively mitigates the inherent ambiguity in describing spatial relationships through natural language. Additionally, the framework adopts a two-stage SFT-to-RL training paradigm, which enhances the model's spatial reasoning abilities.
 
-## 🚀 TL;DR
+## 🚀 Overview
+
+
 <p align="center">
   <img src="./figs/show.png" width=100%/>
 </p>
-
-<p align="center">
-  <img src="./figs/pipeline.png" width=100%/>
-</p>
-
-**Video2Layout** is a framework for reconstructing metric-grounded spatial layouts from video. It leverages continuous object boundary coordinates to quantify inter-object physical distances and object sizes, equipping the model with quantitative spatial computation capabilities. This effectively mitigates the inherent ambiguity in describing spatial relationships through natural language. Additionally, the framework adopts a two-stage SFT-to-RL training paradigm, which enhances the model's spatial reasoning abilities.
-
-<p align="center">
-  <img src="./figs/benchmark.png" width=100%/>
-</p>
-
-**QVS-Bench** is a diagnostic benchmark for systematically evaluating how the quantity of image inputs impacts spatial reasoning accuracy. It maintains a substantially uniform proportional distribution across five input scale configurations (1, 4, 8, 12, and 16 frames), ensuring fair and unbiased analysis of the relevant mechanisms. 
-
-
 
 🎯 **Key Benefits**:
 - **Metric-Grounded Cognitive Map** — an accurate bird 's-eye view reflects the specific position of an object in the scene
 - **Spatial reasoning computation** — rigorous mathematical calculations eliminate the fuzziness of traditional natural language COT description spatial relationship reasoning
 - **Generalization of real scenes** — only the information of simulation data is needed, and there are no requirements for real scenarios.
 
-
 <p align="center">
   <img src="./figs/data_example.png" width=100%/>
 </p>
+
+**QVS-Bench** is a diagnostic benchmark for systematically evaluating how the quantity of image inputs impacts spatial reasoning accuracy. It maintains a substantially uniform proportional distribution across five input scale configurations (1, 4, 8, 12, and 16 frames), ensuring fair and unbiased analysis of the relevant mechanisms. 
+
+<p align="center">
+  <img src="./figs/benchmark.png" width=100%/>
+</p>
+
 
 
 ## 🛠️ Usage
