@@ -1,7 +1,7 @@
 <div align="center">
 
 # Video2Layout: Recall and Reconstruct Metric-Grounded Cognitive Map for Spatial Reasoning
-[![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)]() [![Hugging Face Collection](https://img.shields.io/badge/Model_&_Dataset-HuggingFace-yellow?style=for-the-badge&logo=huggingface&logoColor=000)](https://huggingface.co/ybrrraway)
+[![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2511.16160) [![Hugging Face Collection](https://img.shields.io/badge/Model_&_Dataset-HuggingFace-yellow?style=for-the-badge&logo=huggingface&logoColor=000)](https://huggingface.co/ybrrraway)
 
 </div>
 
@@ -32,11 +32,10 @@
 
 
 ## 🛠️ Usage
-### (Step1) Install
+### (Step 1) Install
 ```bash
 conda create -n v2lo python=3.10 -y 
 conda activate v2lo
-
 pip install -r requirements.txt
 ```
 
@@ -57,7 +56,12 @@ python3 scripts/model_merger.py --local_dir checkpoints/easy_r1/exp_name/global_
 ## Citation
 If you find our works useful for your research, please consider citing:
 ```bibtex
-
+@misc{2511.16160,
+Author = {Yibin Huang and Wang Xu and Wanyue Zhang and Helu Zhi and Jingjing Huang and Yangbin Xu and Yangang Sun and Conghui Zhu and Tiejun Zhao},
+Title = {Video2Layout: Recall and Reconstruct Metric-Grounded Cognitive Map for Spatial Reasoning},
+Year = {2025},
+Eprint = {arXiv:2511.16160},
+}
 ```
 
 ## Acknowledgement
